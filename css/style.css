@@ -6,9 +6,26 @@
     color: white;
 }
 
-.navbar-nav a:hover{
-    background-color: #89ba3f91;
+@media (min-width:768px){
+    .navbar-nav a{
+        transition: background-color 0.7s linear;
+    }
+    .navbar-nav a:hover{
+        background-color: #48a243b2;
+    }
 }
 h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
     color: #48a243;
+}
+#infocle{
+    background-color: #89ba3f;
+    width: 100%;
+    position: absolute ;
+    z-index: 1;
+}
+#bgcle{
+    background-color: #48a243;
+    width: 102%;
+    position: absolute ;
+    transform: rotate(-2deg);
 }
