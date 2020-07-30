@@ -12,7 +12,7 @@
   </head>
   <body>
     <!--****************** NAVBAR **************************************-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light w-100">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="images/Logo_Afpa.png" alt="Logo Afpa" class="img-fluid w-25"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,24 +38,33 @@
         </div>
     </nav>
     <!--****************** Carousel**************************************-->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide mt-5 pt-5" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="images/coding.jpg" alt="First slide">
+            <picture>
+              <source srcset="images/coding.jpg" media="(min-width:768px")>
+              <img src="images/codingsm.jpg" alt="slide 1" class="w-100">
+            </picture>
             <div class="carousel-caption d-none d-md-block">
                 <h5>TEST</h5>
                 <p>Blablabla</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide">
+            <picture>
+              <source srcset="images/coding.jpg" media="(min-width:768px")>
+              <img src="images/codingsm.jpg" alt="slide 1" class="w-100">
+            </picture>
             <div class="carousel-caption d-none d-md-block">
                 <h5>...</h5>
                 <p>...</p>
               </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide">
+            <picture>
+              <source srcset="images/coding.jpg" media="(min-width:768px")>
+              <img src="images/codingsm.jpg" alt="slide 1" class="w-100">
+            </picture>
             <div class="carousel-caption d-none d-md-block">
                 <h5>...</h5>
                 <p>...</p>
@@ -63,6 +72,58 @@
           </div>
         </div>
       </div>
+  <!--****************** Pedagogie *************************************-->
+    <section class="container">
+      <div class="row justify-content-lg-between">
+        <div class="col-12 text-center py-4">
+          <h2>Une approche pédagique blabla</h2>
+        </div>
+  <!--****************** Carte 1 *************************************-->
+      <div class="card col-lg-3 mb-3 px-lg-0" style="max-width: 750px;">
+        <div class="row no-gutters justify-content-lg-center">
+          <div class="col-6 col-lg-12">
+            <img src="images/vign1.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-6 cold-lg-12">
+            <div class="card-body text-lg-center px-lg-0">
+              <h5 class="card-title">Travail en autonomie</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!--****************** Carte 2 *************************************-->
+      <div class="card col-lg-3 mb-3 px-lg-0" style="max-width: 750px;">
+        <div class="row no-gutters justify-content-lg-center">
+          
+          <div class="col-6 cold-lg-12">
+            <div class="card-body text-lg-center px-lg-0">
+              <h5 class="card-title">Outils Professionels</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-12">
+            <img src="images/vign3.jpg" class="card-img" alt="...">
+          </div>
+        </div>
+      </div>
+  <!--****************** Carte 3 *************************************--> 
+      <div class="card col-lg-3 mb-3 px-lg-0" style="max-width: 750px;">
+        <div class="row no-gutters justify-content-lg-center">
+          <div class="col-6 col-lg-12">
+            <img src="images/vign2.jpg" class="card-img" alt="...">
+          </div>
+          <div class="col-6 cold-lg-12">
+            <div class="card-body text-lg-center px-lg-0">
+              <h5 class="card-title">Stage en entreprise</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

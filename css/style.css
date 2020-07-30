@@ -9,3 +9,6 @@
 .navbar-nav a:hover{
     background-color: #89ba3f91;
 }
+h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
+    color: #48a243;
+}
