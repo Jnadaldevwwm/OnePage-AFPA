@@ -8,10 +8,10 @@
 
 @media (min-width:768px){
     .navbar-nav a{
-        transition: background-color 0.7s linear;
+        transition: text-decoration 0.7s linear;
     }
     .navbar-nav a:hover{
-        background-color: #48a243b2;
+        text-decoration: underline;
     }
 }
 h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-letter{
@@ -28,4 +28,29 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
     width: 102%;
     position: absolute ;
     transform: rotate(-2deg);
+}
+.mt-10{
+    margin-top: 200px;
+}
+.vertafpa{
+    color: #48a243;
+}
+.bg-verttrans{
+    background-color: #48a24365;
+}
+.bg-nav{
+    background-image: linear-gradient(90deg, rgba(255,255,255,1) 58%, rgba(72,162,67,1) 100%);
+}
+.bg-ul{
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 21%, rgba(255,255,255,1) 100%);
+}
+.carousel-txt{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.247);
+    padding: 20px 0;
+    text-shadow: 0 0 2px black, -2px 0 0 black;
 }

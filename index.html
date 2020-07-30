@@ -7,20 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <!--****************** NAVBAR **************************************-->
-    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light w-100">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-nav w-100 shadow">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/Logo_Afpa.png" alt="Logo Afpa" class="img-fluid w-25"></a>
+            <a class="navbar-brand" href="#"><img src="images/Logo_Afpa.png" alt="Logo Afpa" class="img-fluid w-25">
+            <h1 class="d-none">Niort Coding by Afpa</h1></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarsExample04">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto bg-ul rounded">
                 <li class="nav-item active">
                   <a class="nav-link text-dark align-middle rounded-circle" href="#">Accueil <span class="sr-only">(current)</span></a>
                 </li>
@@ -31,7 +34,7 @@
                   <a class="nav-link text-dark rounded-circle" href="#">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link rounded-circle">Contact</a>
+                  <a href="#" class="nav-link text-dark rounded-circle">Contact</a>
                 </li>
             </ul>
             </div>
@@ -45,31 +48,23 @@
               <source srcset="images/coding.jpg" media="(min-width:768px")>
               <img src="images/codingsm.jpg" alt="slide 1" class="w-100">
             </picture>
-            <div class="carousel-caption d-none d-md-block">
-                <h5>TEST</h5>
-                <p>Blablabla</p>
-              </div>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <source srcset="images/ban2.jpg" media="(min-width:768px")>
+              <img src="images/ban2sm.jpg" alt="slide 2" class="w-100">
+            </picture>
           </div>
           <div class="carousel-item">
             <picture>
               <source srcset="images/coding.jpg" media="(min-width:768px")>
               <img src="images/codingsm.jpg" alt="slide 1" class="w-100">
             </picture>
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-              </div>
           </div>
-          <div class="carousel-item">
-            <picture>
-              <source srcset="images/coding.jpg" media="(min-width:768px")>
-              <img src="images/codingsm.jpg" alt="slide 1" class="w-100">
-            </picture>
-            <div class="carousel-caption d-none d-md-block">
-                <h5>...</h5>
-                <p>...</p>
-              </div>
-          </div>
+        </div>
+        <div class="carousel-txt">
+          <h3>Bienvenue sur le site de la formation Dev WEB</h3>
+          <p class="d-none d-md-block">Vous trouverez ici toutes les informations necessaires concernant la formation de développeur web et web mobile.</p>
         </div>
       </div>
   <!--****************** Pedagogie *************************************-->
@@ -137,7 +132,51 @@
    </section>
 
    <!--****************** Detail Form *************************************-->  
+   <section class="container mt-10">
+     <h2 class="text-center p-4">Un ensemble d'outils complet</h2>
+     <div class="row">
+       <div class="col-12 col-lg-6">
+        <div class="card mb-3">
+          <img src="images/frontsm.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body text-center text-lg-left">
+            <h5 class="card-title">Partie Front-End</h5>
+            <p class="card-text">Développer la partie front-end d’une application web ou web mobile en intégrant les recommandations de sécurité</p>
+          </div>
+          <div class="card-footer d-flex justify-content-around bg-verttrans">
+            <i class="fab fa-html5 fa-2x vertafpa"></i>
+            <i class="fab fa-css3 fa-2x vertafpa"></i>
+            <i class="fab fa-js fa-2x vertafpa"></i>
+          </div>
+        </div>
+       </div>
 
+       <div class="col-12 col-lg-6">
+        <div class="card mb-3">
+          <img src="images/backsm.jpg" class="card-img-top" alt="...">
+          <div class="card-body text-center text-lg-left">
+            <h5 class="card-title">Partie Back-End</h5>
+            <p class="card-text"> Développer la partie back-end d’une application web ou web mobile en intégrant les recommandations de sécurité</p>
+          </div>
+          <div class="card-footer d-flex justify-content-around bg-verttrans">
+            <i class="fab fa-php fa-2x vertafpa"></i>
+            <i class="fas fa-database fa-2x vertafpa"></i>
+            <i class="fab fa-js fa-2x vertafpa"></i>
+          </div>
+        </div>
+       </div>
+
+       <div class="col-12 col-lg-6">
+        <div class="card mb-3">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+       </div>
+     </div>
+   </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
