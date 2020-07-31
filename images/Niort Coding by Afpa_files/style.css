@@ -28,21 +28,18 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
 }
 #bgcle{
     background-color: #48a243;
-    width: 100%;
+    width: 102%;
     position: absolute ;
     transform: rotate(-2deg);
 }
 .mt-10{
-    margin-top: 60px;
+    margin-top: 200px;
 }
 .vertafpa{
     color: #48a243;
 }
 .bg-verttrans{
     background-color: #48a24365;
-}
-.bg-vertclair{
-    background-color: #89ba3f;
 }
 .bg-nav{
     background-image: linear-gradient(150deg, rgba(255,255,255,1) 62%, #89ba3f 62%);
@@ -62,9 +59,6 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
 }
 .bg-ul{
     background-image: linear-gradient(90deg, rgba(255,255,255,0) 10%, rgba(255,255,255,1) 100%);
-}
-.bg-blanctrans{
-    background-color: rgba(255, 255, 255, 0.336);
 }
 .carousel-txt{
     width: 100%;
@@ -93,11 +87,4 @@ h1::first-letter,h2::first-letter,h3::first-letter,h4::first-letter,h5::first-le
 #contact-sec{
     background-color: #89ba3f;
     padding-top: 30px;
-    padding-bottom: 30px;
-}
-.hauteurmidbar{
-    height: 150px;
-    padding-top: 20px;
-    width: 100%;
-    overflow: hidden;
 }
